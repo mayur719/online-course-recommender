@@ -9,8 +9,8 @@ from scipy.sparse import dok_matrix
 # === Load & Prepare Data ===
 #@st.cache_data
 def load_data():
-    #  Load dataset (update path if needed)
-    df = pd.read_excel("C:\\Users\\venka\\OneDrive\\Desktop\\OCR\\online_course_recommendation_v2.xlsx")
+    #  Load dataset 
+    df = pd.read_excel("online_course_recommendation_v2.xlsx")
 
     #  Encode user and course
     user_encoder = LabelEncoder()
